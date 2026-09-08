@@ -1,0 +1,16 @@
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article
+{
+    text-align: center;
+    width: 150px;
+}
+
+article img
+{
+    width: 100%;
+}

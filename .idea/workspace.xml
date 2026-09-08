@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abf9000e-19d9-4bf6-a241-6b8db2ebec73" name="Changes" comment="test 2">
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PHP File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RenJun1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RenJun1/eenvoudige_database&quot;,
+    &quot;accountId&quot;: &quot;f3d3c2bb-6fb8-4436-9b74-c25dfafd99a5&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000219615" />
+      <entry key="S5" value="1.0000827230939926" />
+      <entry key="S10" value="1.013464667253148" />
+      <entry key="S30" value="1.7421219156950718" />
+      <entry key="S60" value="3.9327791144362676" />
+      <entry key="M2" value="7.905058176152668" />
+      <entry key="M5" value="19.383437863188036" />
+      <entry key="M10" value="36.00727292787004" />
+      <entry key="M15" value="47.133210039829834" />
+      <entry key="M30" value="63.93775101267784" />
+      <entry key="H1" value="75.50494383911744" />
+      <entry key="H2" value="82.3383524227108" />
+      <entry key="H4" value="86.05888101752382" />
+      <entry key="D1" value="100.56704730104158" />
+      <entry key="W1" value="224.16291678607737" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="7.253080445249134E-103" />
+      <entry key="S5" value="1.396875450600443E-41" />
+      <entry key="S10" value="4.047779581554117E-21" />
+      <entry key="S30" value="3.472377005085192E-7" />
+      <entry key="S60" value="0.001468604461823161" />
+      <entry key="M2" value="0.10633922372183499" />
+      <entry key="M5" value="1.484885105651628" />
+      <entry key="M10" value="3.6365451894375678" />
+      <entry key="M15" value="4.912915800294154" />
+      <entry key="M30" value="6.64533497372714" />
+      <entry key="H1" value="7.732321210505644" />
+      <entry key="H2" value="8.341777182347414" />
+      <entry key="H4" value="8.664552325270952" />
+      <entry key="D1" value="9.1119449129444" />
+      <entry key="W1" value="10.980517338242212" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="6.731133723782496E-16" />
+      <entry key="MS500" value="9.238844206304644E-4" />
+      <entry key="S2" value="0.17434295831160782" />
+      <entry key="S5" value="0.49731063269278053" />
+      <entry key="S10" value="0.7179580182122597" />
+      <entry key="S30" value="1.6091779621320583" />
+      <entry key="S60" value="3.8194973342818503" />
+      <entry key="M2" value="7.904344065969809" />
+      <entry key="M5" value="20.765441628169523" />
+      <entry key="M10" value="39.5526037157653" />
+      <entry key="M15" value="51.968697571884384" />
+      <entry key="M30" value="70.53236630070334" />
+      <entry key="H1" value="83.2079137627322" />
+      <entry key="H2" value="90.66429640036282" />
+      <entry key="H4" value="94.71520457291318" />
+      <entry key="D1" value="109.67744859163791" />
+      <entry key="W1" value="235.14301516459605" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IfbtGMDObTt5KnatYw2OI7z68z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/eenvoudige_database",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="logische_structuur.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/workshops/logische_structuur.php">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PS-262.9437.196" />
+        <option value="bundled-php-predefined-a98d8de5180a-9522f28f0b20-com.jetbrains.php.sharedIndexes-PS-262.9437.196" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abf9000e-19d9-4bf6-a241-6b8db2ebec73" name="Changes" comment="" />
+      <created>1788158786326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788158786326</updated>
+      <workItem from="1788158786766" duration="2616000" />
+      <workItem from="1788261533905" duration="3180000" />
+      <workItem from="1788339090236" duration="2140000" />
+      <workItem from="1788507057668" duration="13464000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1788339449913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788339449913</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1788339533217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788339533217</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test 2">
+      <option name="closed" value="true" />
+      <created>1788339751855</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788339751855</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="test 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

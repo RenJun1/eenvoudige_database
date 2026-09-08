@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="67caf286-df06-4e2b-87a9-9860167b8472" name="PHP_server" url="http://localhost\eenvoudige_database">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\eenvoudige_database" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
