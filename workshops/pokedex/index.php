@@ -21,22 +21,66 @@
             <h1>Overzicht Pokemons</h1>
         </header>
         <main>
-            <form>
-                <label>Zoeken</label>
-                <input type="text" name="search">
-                <input type="submit" value="Zoeken">
-            </form>
-            <section>
+            <fieldset>
+                <legend>
+                    Filter
+                </legend>
+                <form method="get">
+                    <label>Naam</label>
+                    <input type="text" name="naam">
+                </form>
+                <form method="get">
+                    <label>Type 1</label>
+                    <input type="text" name="type1">
+                </form>
+                <form>
+                    <label>Zoeken</label>
+                    <input type="submit" value="Zoeken">
+                </form>
+            </fieldset>
+
             <!-- Alle pokemons worden hier ingeladen -->
             <?php
                 include "includes/db_functions.php";
 
+                $query = "SELECT * FROM pokemon";
+                if(isset($_GET["naam"]))
+                {
+                    $search = $_GET["naam"];
+                    $query = "SELECT * FROM pokemon WHERE name LIKE '%$search%'";
+                    if($search != "")
+                    {
+                        echo "U heeft gezocht op: $search";
+                    }
+                }
+                else
+                {
+                    $search = "";
+                }
+
+                if(isset($_GET["type1"]))
+                {
+                    $search = $_GET["type1"];
+                    $query = "SELECT * FROM pokemon WHERE type1 LIKE '%$search%'";
+                    if($search != "")
+                    {
+                        echo "U heeft gezocht op: $search";
+                    }
+                }
+
                 //Verbinden met de database pokemon
                 StartConnection("pokemondb");
 
-                $query = "SELECT * FROM pokemon;";
+                echo "<section>";
+
+                if(isset($_GET[""]))
+                {
+
+                }
+
 
                 $results = ExecuteSelectQuery($query);
+
 
                 //var_dump($results);
 
