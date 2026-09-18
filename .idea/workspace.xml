@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abf9000e-19d9-4bf6-a241-6b8db2ebec73" name="Changes" comment="form gemaakt">
-      <change afterPath="$PROJECT_DIR$/workshops/sessions/result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workshops/sessions/session.php" afterDir="false" />
+    <list default="true" id="abf9000e-19d9-4bf6-a241-6b8db2ebec73" name="Changes" comment="sessions aangemaakt">
+      <change afterPath="$PROJECT_DIR$/workshops/pokedex/toevoegen_pokemon.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshops/pokedex/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/workshops/pokedex/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000013691" />
-      <entry key="MS500" value="1.0054451221786747" />
-      <entry key="S2" value="1.567781190059545" />
-      <entry key="S5" value="2.5308436742192533" />
-      <entry key="S10" value="3.142540927072703" />
-      <entry key="S30" value="4.186435139915328" />
-      <entry key="S60" value="6.763947788804019" />
-      <entry key="M2" value="12.879741517045089" />
-      <entry key="M5" value="28.007162700234325" />
-      <entry key="M10" value="43.529650352583644" />
-      <entry key="M15" value="52.82595018073994" />
-      <entry key="M30" value="66.52501419758339" />
-      <entry key="H1" value="75.98036571818196" />
-      <entry key="H2" value="81.61832744420272" />
-      <entry key="H4" value="84.70905968990188" />
-      <entry key="D1" value="95.84943650948668" />
-      <entry key="W1" value="251.96622717480972" />
+      <entry key="MS100" value="1.0000000000001243" />
+      <entry key="MS500" value="1.0026240301283622" />
+      <entry key="S2" value="1.2264708526944963" />
+      <entry key="S5" value="1.581309963473025" />
+      <entry key="S10" value="1.9448438781896085" />
+      <entry key="S30" value="3.063389669081348" />
+      <entry key="S60" value="4.540107458510095" />
+      <entry key="M2" value="7.63271679070555" />
+      <entry key="M5" value="15.793301157186775" />
+      <entry key="M10" value="27.64380429818215" />
+      <entry key="M15" value="39.863753081126575" />
+      <entry key="M30" value="69.3007200239917" />
+      <entry key="H1" value="99.25666266833261" />
+      <entry key="H2" value="121.24004549696954" />
+      <entry key="H4" value="134.6469420087184" />
+      <entry key="D1" value="159.8785143924059" />
+      <entry key="W1" value="359.3044426112464" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.9971451686033814E-113" />
-      <entry key="S5" value="8.472107590688168E-46" />
-      <entry key="S10" value="3.279380739729252E-23" />
-      <entry key="S30" value="5.0303790436686067E-8" />
-      <entry key="S60" value="3.7056031130019783E-4" />
-      <entry key="M2" value="0.035140749167425954" />
-      <entry key="M5" value="0.5828790108094155" />
-      <entry key="M10" value="1.5171963608928827" />
-      <entry key="M15" value="2.092814107065754" />
-      <entry key="M30" value="2.891092023073198" />
-      <entry key="H1" value="3.3999779744346865" />
-      <entry key="H2" value="3.6876241519328667" />
-      <entry key="H4" value="3.8406063350903104" />
-      <entry key="D1" value="4.533511133101058" />
-      <entry key="W1" value="12.422861860293233" />
+      <entry key="MS100" value="1.9924016696736643E-132" />
+      <entry key="MS500" value="4.569570471892872E-27" />
+      <entry key="S2" value="2.5999730412131726E-7" />
+      <entry key="S5" value="0.0023226701775929484" />
+      <entry key="S10" value="0.04820172012992663" />
+      <entry key="S30" value="0.3949245460740921" />
+      <entry key="S60" value="0.852597780125909" />
+      <entry key="M2" value="1.5057987530716246" />
+      <entry key="M5" value="2.599599405133671" />
+      <entry key="M10" value="4.265500695272645" />
+      <entry key="M15" value="5.836907311166885" />
+      <entry key="M30" value="9.0195216353457" />
+      <entry key="H1" value="11.804248428746972" />
+      <entry key="H2" value="13.683318142961435" />
+      <entry key="H4" value="14.780444492061376" />
+      <entry key="D1" value="16.047229254493953" />
+      <entry key="W1" value="24.22557294072791" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.043888902367425216" />
-      <entry key="MS500" value="0.5397549934361507" />
-      <entry key="S2" value="1.3953190701847649" />
-      <entry key="S5" value="2.438149473984152" />
-      <entry key="S10" value="3.088717572905997" />
-      <entry key="S30" value="4.153831042525822" />
-      <entry key="S60" value="6.705341086456171" />
-      <entry key="M2" value="12.819276812326878" />
-      <entry key="M5" value="28.478224730424873" />
-      <entry key="M10" value="44.9530225414856" />
-      <entry key="M15" value="54.841530257560954" />
-      <entry key="M30" value="69.36699393964678" />
-      <entry key="H1" value="79.3522608785165" />
-      <entry key="H2" value="85.2908741198815" />
-      <entry key="H4" value="88.54184545766121" />
-      <entry key="D1" value="100.38148438308251" />
-      <entry key="W1" value="264.38858378848136" />
+      <entry key="MS100" value="0.008850655353873442" />
+      <entry key="MS500" value="0.3889467589795819" />
+      <entry key="S2" value="0.9345821730697709" />
+      <entry key="S5" value="1.37537831181286" />
+      <entry key="S10" value="1.7342295688523233" />
+      <entry key="S30" value="3.1048434147960893" />
+      <entry key="S60" value="5.096466987094292" />
+      <entry key="M2" value="8.928979678091395" />
+      <entry key="M5" value="18.26976494327844" />
+      <entry key="M10" value="31.821832895330463" />
+      <entry key="M15" value="45.62627267362047" />
+      <entry key="M30" value="78.26537916254192" />
+      <entry key="H1" value="111.02502209885753" />
+      <entry key="H2" value="134.90240430778067" />
+      <entry key="H4" value="149.41600022574337" />
+      <entry key="D1" value="175.92353384556256" />
+      <entry key="W1" value="383.5293129121748" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -116,32 +116,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/xampp/htdocs/eenvoudige_database",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/eenvoudige_database&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="logische_structuur.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/workshops/logische_structuur.php">
       <method v="2" />
@@ -165,7 +165,7 @@
       <workItem from="1788158786766" duration="2616000" />
       <workItem from="1788261533905" duration="3180000" />
       <workItem from="1788339090236" duration="2140000" />
-      <workItem from="1788507057668" duration="24053000" />
+      <workItem from="1788507057668" duration="42547000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -215,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789123082730</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sessions aangemaakt">
+      <option name="closed" value="true" />
+      <created>1789370900640</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789370900640</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +233,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="test 2" />
     <MESSAGE value="form gemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="form gemaakt" />
+    <MESSAGE value="sessions aangemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="sessions aangemaakt" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

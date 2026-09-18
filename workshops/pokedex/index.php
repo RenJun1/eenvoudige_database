@@ -1,6 +1,6 @@
 <?php
 /*
- * Author: Remco Evers
+ * Author: Ren Jun Huang
  * Date: 7-9-26
  * Homepage Pokedex
  */
@@ -17,40 +17,60 @@
         <link href="styles/style.css" rel="stylesheet">
     </head>
     <body>
+    <?php
+        session_start();
+        include "includes/db_functions.php";
+        StartConnection("pokemondb");
+    ?>
         <header>
             <h1>Overzicht Pokemons</h1>
         </header>
         <main>
+            <button>
+                <a href="toevoegen_pokemon.php">Voeg nieuwe pokemon toe</a>
+            </button>
             <fieldset>
                 <legend>
                     Filter
                 </legend>
                 <form method="get">
-                    <label>Naam</label>
-                    <input type="text" name="naam">
-                </form>
-                <form method="get">
-                    <label>Type 1</label>
-                    <input type="text" name="type1">
-                </form>
-                <form>
-                    <label>Zoeken</label>
-                    <input type="submit" value="Zoeken">
+                    <p>
+                        <label>Naam</label>
+                        <input type="text" name="naam">
+                    </p>
+                    <p>
+                        <label>Type 1</label>
+                        <select name="type1">
+                            <option>All</option>
+                            <?php
+                                $queryType1 = 'SELECT DISTINCT type1 FROM pokemon';
+                                $resultType1 = ExecuteSelectQuery($queryType1);
+                                foreach ($resultType1 as $type1)
+                                {
+                                    echo "<option>".$type1['type1']."</option>";
+                                }
+                            ?>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Zoeken</label>
+                        <input type="submit" value="Zoeken">
+                    </p>
                 </form>
             </fieldset>
 
-            <!-- Alle pokemons worden hier ingeladen -->
+            <!-- Alle pokemons worden hier
+            ingeladen -->
             <?php
-                include "includes/db_functions.php";
+
 
                 $query = "SELECT * FROM pokemon";
                 if(isset($_GET["naam"]))
                 {
                     $search = $_GET["naam"];
-                    $query = "SELECT * FROM pokemon WHERE name LIKE '%$search%'";
                     if($search != "")
                     {
-                        echo "U heeft gezocht op: $search";
+                        echo "U heeft gezocht op: $search <br>";
                     }
                 }
                 else
@@ -58,25 +78,21 @@
                     $search = "";
                 }
 
-                if(isset($_GET["type1"]))
-                {
-                    $search = $_GET["type1"];
-                    $query = "SELECT * FROM pokemon WHERE type1 LIKE '%$search%'";
-                    if($search != "")
-                    {
-                        echo "U heeft gezocht op: $search";
-                    }
-                }
 
+                if(isset($_GET["type1"]) && $_GET["type1"] != "All")
+                {
+                    $inputType1 = $_GET["type1"];
+                    $query = "SELECT * FROM pokemon WHERE type1 = '$inputType1'";
+                    echo "U heeft gezocht op: $inputType1";
+                }
+                else
+                {
+                    $query = "SELECT * FROM pokemon WHERE name LIKE '%$search%'";
+                }
                 //Verbinden met de database pokemon
-                StartConnection("pokemondb");
+
 
                 echo "<section>";
-
-                if(isset($_GET[""]))
-                {
-
-                }
 
 
                 $results = ExecuteSelectQuery($query);
@@ -95,19 +111,9 @@
                     echo "</article>";
                 }
 
-
-
-
-
-
-
-
-
-
             ?>
             </section>
         </main>
-
     </body>
 </html>
 
