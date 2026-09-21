@@ -105,8 +105,10 @@
                     echo "<article>";
                         $pokemonName = $pokemon["name"];
                         $pokemonImage = $pokemon["picture"];
+                        $pokemonId = $pokemon["number"];
                         echo "<img src='$pokemonImage' alt=''>";
                         echo "<h2>$pokemonName</h2>";
+                        echo "<a href='updaten_pokemon.php?pokemonId=$pokemonId'>Bewerk</a>";
 
                     echo "</article>";
                 }
