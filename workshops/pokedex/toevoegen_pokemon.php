@@ -19,6 +19,7 @@
     </button>
     <h1>pokemon toevoegen</h1>
     <fieldset>
+        <legend>Pokemon toevoegen</legend>
         <form name="add_pokemon" action="toevoegen_pokemon.php" method="POST">
             <p>
                 <label>Name</label>

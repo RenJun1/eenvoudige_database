@@ -13,7 +13,7 @@
                 <th class="border" scope="col">Naam</th>
                 <th class="border" scope="col">Achternaam</th>
                 <th class="border" scope="col">Telefoonnummer</th>
-                <th class="border" scope="col">Aanpassen</th>
+                <t class="border" scope="col">Aanpassen</t>
             </tr>
             <tr>
                 <th class="border" scope="row">1</th>
