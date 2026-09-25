@@ -1,10 +1,3 @@
-<?php
-if (!isset($id))
-{
-    header("location: index.php");
-    die();
-}
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -24,6 +17,12 @@ if (!isset($id))
     </h1>
     <?php
     $id = $_GET["pokemonId"];
+
+    if (!isset($id)) {
+        header("location: index.php");
+        die();
+    }
+
 
     require "includes/db_functions.php";
     StartConnection("pokemondb");
