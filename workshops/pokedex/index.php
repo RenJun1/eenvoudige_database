@@ -109,6 +109,7 @@
                         echo "<img src='$pokemonImage' alt=''>";
                         echo "<h2>$pokemonName</h2>";
                         echo "<a href='updaten_pokemon.php?pokemonId=$pokemonId'>Bewerk</a>";
+                        echo "<p><a href='delete_pokemon.php?pokemonId=$pokemonId'>Delete</a></p>";
 
                     echo "</article>";
                 }

@@ -9,28 +9,33 @@
     <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
+    <?php
+
+        $id = $_GET["pokemonId"];
+
+        if (!isset($id)) {
+            header("location: index.php");
+            die();
+        }
+
+        require "includes/db_functions.php";
+        StartConnection("pokemondb");
+
+        $query = "SELECT * FROM pokemon WHERE number = $id";
+
+        $result = ExecuteSelectQuery($query);
+        $pokemon = $result[0];
+    ?>
     <button>
         <a href="index.php">Ga terug naar pokedex</a>
     </button>
     <h1>
         Pokemon updaten
     </h1>
+
+    <img src="<?php echo $pokemon["picture"];?>" width="200"><br>
+
     <?php
-    $id = $_GET["pokemonId"];
-
-    if (!isset($id)) {
-        header("location: index.php");
-        die();
-    }
-
-
-    require "includes/db_functions.php";
-    StartConnection("pokemondb");
-    $query = "SELECT * FROM pokemon WHERE number = $id";
-
-    $result = ExecuteSelectQuery($query);
-    $pokemon = $result[0];
-
 
     if(isset($_POST["update"]))
     {
@@ -42,7 +47,7 @@
         $pokemonSpecies = $_POST["species"];
         $pokemonPicture = $_POST["picture"];
 
-        echo $updateQuery = "UPDATE pokemon SET name = '$pokemonName', number = '$pokemonNumber', type1 = '$pokemonType1', type2 = '$pokemonType2', ability = '$pokemonAbility', species = '$pokemonSpecies', picture = '$pokemonPicture' WHERE number = $id";
+        $updateQuery = "UPDATE pokemon SET name = '$pokemonName', number = '$pokemonNumber', type1 = '$pokemonType1', type2 = '$pokemonType2', ability = '$pokemonAbility', species = '$pokemonSpecies', picture = '$pokemonPicture' WHERE number = $id";
 
         $rowsAffected = ExecuteQuery($updateQuery);
 
@@ -56,7 +61,6 @@
         }
     }
     ?>
-    <img src="<?php echo $pokemon["picture"];?>" width="200">
 
     <fieldset>
         <legend>Pokemon updaten</legend>

@@ -1,0 +1,16 @@
+a
+{
+    text-decoration: none;
+    color: black;
+    padding-inline: 5px;
+    padding-block: 1px;
+    border-style: outset;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #F0F0F0;
+}
+
+article
+{
+    width: 100%;
+}

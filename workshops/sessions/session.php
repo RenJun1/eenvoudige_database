@@ -5,7 +5,6 @@ session_start();
 $_SESSION['login'] = false;
 $_SESSION['name'] = 'Ren Jun';
 
-echo $_SESSION['name'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -18,7 +17,7 @@ echo $_SESSION['name'];
 </head>
 <body>
     <main>
-        <form actiom="session.php" method="post">
+        <form action="session.php" method="post">
             <p>
                 <label>username</label>
                 <input type="text" name="username">

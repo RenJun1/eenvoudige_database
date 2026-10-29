@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abf9000e-19d9-4bf6-a241-6b8db2ebec73" name="Changes" comment="updaten pokemon afgemaakt">
+    <list default="true" id="abf9000e-19d9-4bf6-a241-6b8db2ebec73" name="Changes" comment="update pokemon kan nu geopend worden">
+      <change afterPath="$PROJECT_DIR$/eindopdracht/includes/db_functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eindopdracht/pages/bewerken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eindopdracht/pages/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eindopdracht/pages/toevoegen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eindopdracht/pages/verwijderen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eindopdracht/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshops/pokedex/delete_pokemon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eindopdracht/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshops/pokedex/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/workshops/pokedex/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshops/pokedex/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/workshops/pokedex/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workshops/pokedex/updaten_pokemon.php" beforeDir="false" afterPath="$PROJECT_DIR$/workshops/pokedex/updaten_pokemon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshops/sessions/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/workshops/sessions/session.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="PHP File" />
       </list>
     </option>
@@ -48,59 +61,62 @@
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000496226469" />
-      <entry key="S10" value="1.0003147393043872" />
-      <entry key="S30" value="1.108791906737108" />
-      <entry key="S60" value="1.5469225059573444" />
-      <entry key="M2" value="2.946705106804326" />
-      <entry key="M5" value="9.243300190398616" />
-      <entry key="M10" value="23.256693441924117" />
-      <entry key="M15" value="38.45843604041422" />
-      <entry key="M30" value="76.98137810362" />
-      <entry key="H1" value="120.08369838052371" />
-      <entry key="H2" value="154.25044914056537" />
-      <entry key="H4" value="176.09257688425546" />
-      <entry key="D1" value="219.021444666613" />
-      <entry key="W1" value="473.4165188104057" />
+      <entry key="S5" value="1.0000000000160718" />
+      <entry key="S10" value="1.0000053177929258" />
+      <entry key="S30" value="1.0314544739030354" />
+      <entry key="S60" value="1.4164896733883214" />
+      <entry key="M2" value="3.1155613351021483" />
+      <entry key="M5" value="9.261633137439564" />
+      <entry key="M10" value="19.540566970803265" />
+      <entry key="M15" value="30.37544471997415" />
+      <entry key="M30" value="58.127268026856996" />
+      <entry key="H1" value="88.72699641427118" />
+      <entry key="H2" value="112.58765100987287" />
+      <entry key="H4" value="132.0427192269915" />
+      <entry key="D1" value="271.8295115464703" />
+      <entry key="W1" value="586.8932168742207" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="4.5668358169484915E-146" />
-      <entry key="S5" value="9.745185248299602E-59" />
-      <entry key="S10" value="1.5156541791450745E-29" />
-      <entry key="S30" value="4.977024171358174E-10" />
-      <entry key="S60" value="3.8856384665096713E-5" />
-      <entry key="M2" value="0.011487191018690258" />
-      <entry key="M5" value="0.39618721709822713" />
-      <entry key="M10" value="1.3878742674787699" />
-      <entry key="M15" value="2.1868200754548095" />
-      <entry key="M30" value="3.732022091821189" />
-      <entry key="H1" value="5.23534161677876" />
-      <entry key="H2" value="6.389863101456071" />
-      <entry key="H4" value="7.125417150394378" />
-      <entry key="D1" value="9.963816707230455" />
-      <entry key="W1" value="26.120378997143995" />
+      <entry key="S2" value="6.523467365196835E-158" />
+      <entry key="S5" value="1.335953982620438E-63" />
+      <entry key="S10" value="3.6568356308614795E-32" />
+      <entry key="S30" value="3.579074262550775E-11" />
+      <entry key="S60" value="7.374478917936933E-6" />
+      <entry key="M2" value="0.0036727860286217486" />
+      <entry key="M5" value="0.16790900652951618" />
+      <entry key="M10" value="0.7426374833152835" />
+      <entry key="M15" value="1.393154817886779" />
+      <entry key="M30" value="3.021621332675546" />
+      <entry key="H1" value="4.784705586034878" />
+      <entry key="H2" value="6.161997792762766" />
+      <entry key="H4" value="7.827867534429731" />
+      <entry key="D1" value="32.51510275486408" />
+      <entry key="W1" value="76.40052972550936" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3049428785172817E-28" />
-      <entry key="MS500" value="2.6492216792394854E-6" />
-      <entry key="S2" value="0.040344057588855" />
-      <entry key="S5" value="0.27689295607884373" />
-      <entry key="S10" value="0.5265207633538556" />
-      <entry key="S30" value="0.9160961872754998" />
-      <entry key="S60" value="1.4443933425671869" />
-      <entry key="M2" value="2.898031796005011" />
-      <entry key="M5" value="9.591624689057888" />
-      <entry key="M10" value="24.592456114541946" />
-      <entry key="M15" value="40.59073691522572" />
-      <entry key="M30" value="80.6621836337622" />
-      <entry key="H1" value="125.28056481778272" />
-      <entry key="H2" value="160.61609113688058" />
-      <entry key="H4" value="183.20430939444654" />
-      <entry key="D1" value="228.98243064181094" />
-      <entry key="W1" value="499.53599930641974" />
+      <entry key="MS100" value="0.06886906974228815" />
+      <entry key="MS500" value="0.5856050906094049" />
+      <entry key="S2" value="0.8747847649058218" />
+      <entry key="S5" value="0.9478955498076629" />
+      <entry key="S10" value="0.9736042036648948" />
+      <entry key="S30" value="1.021980922967734" />
+      <entry key="S60" value="1.4089383395374078" />
+      <entry key="M2" value="3.1093919102183487" />
+      <entry key="M5" value="9.414778899690564" />
+      <entry key="M10" value="20.26666253862184" />
+      <entry key="M15" value="31.751673628699926" />
+      <entry key="M30" value="61.132831412569026" />
+      <entry key="H1" value="93.49926936811542" />
+      <entry key="H2" value="118.74163844347015" />
+      <entry key="H4" value="139.86564320460462" />
+      <entry key="D1" value="304.34185020632435" />
+      <entry key="W1" value="663.2926954022712" />
     </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1,
@@ -114,36 +130,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/eenvoudige_database&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JavaScript Debug.bewerken.php.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/xampp/htdocs/eenvoudige_database/eindopdracht/styles",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\eenvoudige_database\eindopdracht\styles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\eenvoudige_database\eindopdracht\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.bewerken.php">
+    <configuration name="bewerken.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/eenvoudige_database/eindopdracht/pages/bewerken.php">
+      <method v="2" />
+    </configuration>
     <configuration name="logische_structuur.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/workshops/logische_structuur.php">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.bewerken.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -164,7 +198,9 @@
       <workItem from="1788261533905" duration="3180000" />
       <workItem from="1788339090236" duration="2140000" />
       <workItem from="1788507057668" duration="50897000" />
-      <workItem from="1790163196543" duration="12421000" />
+      <workItem from="1790163196543" duration="34750000" />
+      <workItem from="1792458917375" duration="7831000" />
+      <workItem from="1792484332474" duration="26911000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -246,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790331136500</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update pokemon kan nu geopend worden">
+      <option name="closed" value="true" />
+      <created>1790331354973</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1790331354973</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +304,8 @@
     <MESSAGE value="pokemon toevoegen" />
     <MESSAGE value="updaten pokemon" />
     <MESSAGE value="updaten pokemon afgemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="updaten pokemon afgemaakt" />
+    <MESSAGE value="update pokemon kan nu geopend worden" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pokemon kan nu geopend worden" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

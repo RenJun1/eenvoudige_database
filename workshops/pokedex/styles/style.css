@@ -19,3 +19,9 @@ a
 {
     text-decoration: none;
 }
+
+.deleteArticle
+{
+    text-align: center;
+    width: 200px;
+}
