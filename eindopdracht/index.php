@@ -58,6 +58,15 @@
             </div>
             <div>
                 <?php
+                    if(isset($_SESSION["melding"]))
+                    {
+                        echo $_SESSION["melding"];
+                        unset($_SESSION["melding"]);
+                    }
+                ?>
+            </div>
+            <div>
+                <?php
                     if($_SESSION['login'] == true)
                     {
                         echo '<a href="pages/toevoegen.php" class="align-self-start">toevoegen</a>';

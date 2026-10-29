@@ -76,12 +76,14 @@
 
                     if ($rowsAffected > 0)
                     {
+                        $_SESSION["melding"] = "".$klanten["voornaam"]." ".$klanten["achternaam"]." is succesvol verwijderd!";
+
                         header("location: ../index.php");
                         die();
                     }
                     else
                     {
-                        echo "Pokemon is niet verwijderd, porbeer het opnieuw";
+                        echo "".$klanten["voornaam"]." ".$klanten["achternaam"]." is niet verwijderd, porbeer het opnieuw";
                     }
                 }
             ?>
