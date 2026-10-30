@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abf9000e-19d9-4bf6-a241-6b8db2ebec73" name="Changes" comment="melding toegevoegd als je een klant verwijderd">
+    <list default="true" id="abf9000e-19d9-4bf6-a241-6b8db2ebec73" name="Changes" comment="engels commentaar toegevoegd, error bericht op de toevoegen pagina verplaats naar de log, opmaak van toevoegen.php veranderd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eindopdracht/includes/db_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht/includes/db_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eindopdracht/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eindopdracht/pages/bewerken.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht/pages/bewerken.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eindopdracht/pages/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht/pages/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eindopdracht/pages/toevoegen.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht/pages/toevoegen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eindopdracht/pages/verwijderen.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht/pages/verwijderen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eindopdracht/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,61 +48,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.1984494136038334E-95" />
-      <entry key="S2" value="1.860608183632673E-24" />
-      <entry key="S5" value="3.2200455560155464E-10" />
-      <entry key="S10" value="1.7954498285558896E-5" />
-      <entry key="S30" value="0.03191774977433436" />
-      <entry key="S60" value="0.3572971989283317" />
-      <entry key="M2" value="1.724538186072326" />
-      <entry key="M5" value="6.165024422067876" />
-      <entry key="M10" value="13.896862229919705" />
-      <entry key="M15" value="21.864033649764433" />
-      <entry key="M30" value="41.04484252891757" />
-      <entry key="H1" value="62.966330290613186" />
-      <entry key="H2" value="92.07737879726699" />
-      <entry key="H4" value="142.8449225904462" />
-      <entry key="D1" value="372.53060398003646" />
-      <entry key="W1" value="739.3076334655966" />
+      <entry key="MS100" value="1.0000000019283313" />
+      <entry key="MS500" value="1.0180732528735201" />
+      <entry key="S2" value="1.3666562406494294" />
+      <entry key="S5" value="1.6694276284892209" />
+      <entry key="S10" value="1.8181855709368266" />
+      <entry key="S30" value="1.9352992916205067" />
+      <entry key="S60" value="1.9671087285543396" />
+      <entry key="M2" value="1.983555669154064" />
+      <entry key="M5" value="2.230713072007474" />
+      <entry key="M10" value="5.263955323132199" />
+      <entry key="M15" value="10.762507389206261" />
+      <entry key="M30" value="30.245448777395257" />
+      <entry key="H1" value="60.25836105521365" />
+      <entry key="H2" value="98.69554278033546" />
+      <entry key="H4" value="156.00141080469766" />
+      <entry key="D1" value="397.85971076496554" />
+      <entry key="W1" value="770.9038256964508" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0000000000000002" />
-      <entry key="M15" value="1.0000000000750782" />
-      <entry key="M30" value="1.0000221818036998" />
-      <entry key="H1" value="1.0129638390243867" />
-      <entry key="H2" value="1.3207456265267217" />
-      <entry key="H4" value="2.785924397661141" />
-      <entry key="D1" value="26.416850311253434" />
-      <entry key="W1" value="74.7591467489273" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="3.332636001183765E-166" />
+      <entry key="S10" value="1.8255508760874775E-83" />
+      <entry key="S30" value="2.6330835928011066E-28" />
+      <entry key="S60" value="1.6226779079044323E-14" />
+      <entry key="M2" value="1.2738437533325787E-7" />
+      <entry key="M5" value="0.0017460089465172535" />
+      <entry key="M10" value="0.04178527188516611" />
+      <entry key="M15" value="0.12041543390035923" />
+      <entry key="M30" value="0.34701696790445397" />
+      <entry key="H1" value="0.5967116003805971" />
+      <entry key="H2" value="1.0136883390325921" />
+      <entry key="H4" value="2.4406862886695633" />
+      <entry key="D1" value="25.840731752268095" />
+      <entry key="W1" value="74.52402510730293" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.283114882657394E-13" />
-      <entry key="MS500" value="0.003186083958355507" />
-      <entry key="S2" value="0.23758242124468912" />
-      <entry key="S5" value="0.5627632404528695" />
-      <entry key="S10" value="0.7501863609698092" />
-      <entry key="S30" value="0.9364803016192894" />
-      <entry key="S60" value="1.296630638951894" />
-      <entry key="M2" value="2.6807459316037368" />
-      <entry key="M5" value="7.138290709732774" />
-      <entry key="M10" value="14.879756237197403" />
-      <entry key="M15" value="22.850863268550377" />
-      <entry key="M30" value="42.03624049309225" />
-      <entry key="H1" value="63.97344356572287" />
-      <entry key="H2" value="93.39345275543339" />
-      <entry key="H4" value="145.62661223950792" />
-      <entry key="D1" value="398.944464634086" />
-      <entry key="W1" value="814.065634986057" />
+      <entry key="MS100" value="0.9526379998061071" />
+      <entry key="MS500" value="1.0080933291953165" />
+      <entry key="S2" value="1.3625849279280848" />
+      <entry key="S5" value="1.66725234870925" />
+      <entry key="S10" value="1.816963557743734" />
+      <entry key="S30" value="1.9348566825140294" />
+      <entry key="S60" value="1.966882633341771" />
+      <entry key="M2" value="1.9834413842644585" />
+      <entry key="M5" value="2.2322795985622976" />
+      <entry key="M10" value="5.304475503590231" />
+      <entry key="M15" value="10.880509892294826" />
+      <entry key="M30" value="30.588525938322856" />
+      <entry key="H1" value="60.85090699221641" />
+      <entry key="H2" value="99.70520207439814" />
+      <entry key="H4" value="158.43814084726824" />
+      <entry key="D1" value="423.6974732601053" />
+      <entry key="W1" value="845.4267026802145" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -194,7 +190,7 @@
       <workItem from="1788507057668" duration="50897000" />
       <workItem from="1790163196543" duration="34750000" />
       <workItem from="1792458917375" duration="7831000" />
-      <workItem from="1792484332474" duration="41436000" />
+      <workItem from="1792484332474" duration="43062000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -308,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793302884833</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="engels commentaar toegevoegd, error bericht op de toevoegen pagina verplaats naar de log, opmaak van toevoegen.php veranderd">
+      <option name="closed" value="true" />
+      <created>1793322260624</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1793322260624</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +329,8 @@
     <MESSAGE value="update pokemon kan nu geopend worden" />
     <MESSAGE value="index, verwijderen, bewerken, toevoegen, session en style pagina's aangemaakt en alle basis functionaliteiten werken" />
     <MESSAGE value="melding toegevoegd als je een klant verwijderd" />
-    <option name="LAST_COMMIT_MESSAGE" value="melding toegevoegd als je een klant verwijderd" />
+    <MESSAGE value="engels commentaar toegevoegd, error bericht op de toevoegen pagina verplaats naar de log, opmaak van toevoegen.php veranderd" />
+    <option name="LAST_COMMIT_MESSAGE" value="engels commentaar toegevoegd, error bericht op de toevoegen pagina verplaats naar de log, opmaak van toevoegen.php veranderd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

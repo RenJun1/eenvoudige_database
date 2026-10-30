@@ -54,11 +54,11 @@
                     {
                         // sets your status to logged in
                         $_SESSION['login'] = true;
-                        echo "Je bent ingelogt";
+                        echo "Je bent ingelogd";
                     }
                     else
                     {
-                        echo "Je bent niet ingelogt";
+                        echo "Je bent niet ingelogd";
                     }
                 }
             ?>
