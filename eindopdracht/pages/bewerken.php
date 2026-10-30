@@ -97,7 +97,7 @@
             </table>
             <?php
                 // this checks if there's at least 1 row affected
-                if($rowsAffected >0)
+                if($rowsAffected > 0)
                 {
                     echo $klantenVoornaam . " " . $klantenAchternaam . " is succesvol aangepast";
                 }
