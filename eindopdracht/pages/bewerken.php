@@ -22,8 +22,8 @@
             // this gets the klantenId from the url and saves it in $id
             $id = $_GET["klantenId"];
 
-            // if there isn't an id, you automatically go back to index.php
-            if (!isset($id))
+            // if there isn't an id or if you're not logged in, you automatically go back to index.php
+            if (!isset($id) || $_SESSION["login"] == false)
             {
                 header("location: ../index.php");
                 die();
