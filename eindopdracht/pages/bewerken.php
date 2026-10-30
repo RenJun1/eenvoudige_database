@@ -40,6 +40,9 @@
                 $result = ExecuteSelectQuery($query);
                 $klanten = $result[0];
 
+                // creates an empty variable for later
+                $melding = "";
+
 
                 // this checks if you clicked on the bewerken button
                 if(isset($_POST["bewerken"]))
@@ -59,13 +62,21 @@
                     $rowsAffected = ExecuteQuery($updateQuery);
 
                     // this checks if there's at least 1 row affected
-                    if($rowsAffected >0)
+                    if($rowsAffected > 0)
                     {
                         // this refreshes the information of the klant
                         $query = "SELECT * FROM klanten WHERE id = $id";
 
                         $result = ExecuteSelectQuery($query);
                         $klanten = $result[0];
+
+                        // gives $melding a new text
+                        $melding = $klantenVoornaam . " " . $klantenAchternaam . " is succesvol aangepast";
+                    }
+                    else
+                    {
+                        // gives $melding a new text
+                        $melding = "Er is iets misgegaan";
                     }
                 }
             ?>
@@ -96,15 +107,8 @@
                 </tr>
             </table>
             <?php
-                // this checks if there's at least 1 row affected
-                if($rowsAffected > 0)
-                {
-                    echo $klantenVoornaam . " " . $klantenAchternaam . " is succesvol aangepast";
-                }
-                else
-                {
-                    echo "Er is iets misgegaan";
-                }
+                // shows a text depending on if you've updated or not
+                echo $melding;
             ?>
         </main>
     </body>
