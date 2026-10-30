@@ -59,7 +59,7 @@ function ExecuteQuery($query){
         return $result;
     }
     catch (PDOException $e) {
-        echo "Query fout: " . $e->getMessage();
+        error_log($e->getMessage());
         return 0;
     }
 }
